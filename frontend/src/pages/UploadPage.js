@@ -8,10 +8,10 @@ const UploadPage = () => {
     };
 
     return (
-      <div className="flex flex-col items-center bg-blue-200 h-screen gy-5">
-        <h1 className="text-3x text-center text-bold text-transparent mb-2">Upload Your Image</h1>
-        <input type="file" className="block w-full mt-4" onChange={(handleUpload)} />
-        <p className="text-center text-sm mb-4">Selected File: {feedback}</p>
+      <div className="flex flex-col justify space-y v-space-x-app bg-gradient-to-r px-5">
+        <h1 className="text-2fl font-bold text-center mt-4">Upload Your Image</h1>
+        <input type="file" className="bord-2 border-gray-300 w-full px-5 py-3 bg-white mb-6" onChange={(handleUpload)} />
+        <p className="text-sm mb4-2 italics text-center">Selected File: {feedback}</p>
       </div>
     );
 };
